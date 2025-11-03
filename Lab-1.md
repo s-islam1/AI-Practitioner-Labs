@@ -1,10 +1,10 @@
-# 🧠 Local AI Agent Workshop — Windows 11 Setup Guide
+# Local AI Agent Workshop — Windows 11 Setup Guide
 
 > **Run and customize your own AI agent locally** using Ollama, Python, Docker, and Open WebUI — with live web search and RAG (Retrieval-Augmented Generation) integration.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This hands-on workshop walks you step-by-step through:
 1. Installing **Ollama** and running local LLMs  
@@ -15,10 +15,10 @@ This hands-on workshop walks you step-by-step through:
 
 ---
 
-## 🧩 1. Install Ollama Locally
+## 1. Install Ollama Locally
 
 ### 1.1 Download & Install
-➡️ [https://ollama.com/download](https://ollama.com/download)
+[https://ollama.com/download](https://ollama.com/download)
 
 Run the Windows installer, then open **Command Prompt** and verify:
 ```bash
@@ -43,12 +43,12 @@ ollama run gemma3:1b
 
 ---
 
-## ⚙️ 2. Install Python, Docker Desktop, and Open WebUI
+## 2. Install Python, Docker Desktop, and Open WebUI
 
 ### 2.1 Python (with PATH)
 
 Download from [python.org](https://www.python.org/downloads/windows/)
-✅ Check **“Add Python to PATH”** during setup.
+Check **“Add Python to PATH”** during setup.
 
 Verify installation:
 
@@ -80,7 +80,7 @@ OLLAMA Base URL: http://host.docker.internal:11434
 
 Pick **gemma3:1b** as your default model.
 
-> ✅ **Optional (persistent data)**
+> **Optional (persistent data)**
 >
 > ```bash
 > docker stop open-webui
@@ -90,7 +90,7 @@ Pick **gemma3:1b** as your default model.
 
 ---
 
-## 🌐 3. Enable Web Search (Tavily API)
+## 3. Enable Web Search (Tavily API)
 
 ### 3.1 Get API Key
 
@@ -105,13 +105,13 @@ Provider = Tavily
 API Key = <your_key_here>
 ```
 
-Toggle 🌐 **Web Search ON** in chat for live results.
+Toggle **Web Search ON** in chat for live results.
 
 > 💡 To use only your **local Knowledge Base**, turn **Web Search OFF**.
 
 ---
 
-## 📚 4. Implement RAG (Retrieval-Augmented Generation)
+## 4. Implement RAG (Retrieval-Augmented Generation)
 
 ### 4.1 Install Python Libraries
 
@@ -199,7 +199,7 @@ if __name__ == "__main__":
         print(ask(q))
 ```
 
-> 🔧 Replace `<YOUR_USERNAME>` with your Windows username.
+> Replace `<YOUR_USERNAME>` with your Windows username.
 
 ### 4.5 Run It
 
@@ -225,7 +225,7 @@ Summarize the key points in the PDF about exam domains.
 
 ---
 
-## 🧠 5. (Optional) RAG in Open WebUI
+## 5. (Optional) RAG in Open WebUI
 
 No code needed!
 Go to:
@@ -239,7 +239,7 @@ Then:
 
 ---
 
-## 🧰 Credits & Resources
+## Credits & Resources
 
 * [Ollama Documentation](https://ollama.com)
 * [Open WebUI GitHub](https://github.com/open-webui/open-webui)
@@ -249,7 +249,7 @@ Then:
 
 ---
 
-## 🪄 Author Notes
+## Author Notes
 
 Created by **Shahpar Islam**
 Assistant Professor, Cloud Computing – NOVA IET
