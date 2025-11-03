@@ -244,7 +244,7 @@ The writing uses clear structure, concise technical explanation, and personal re
 
 ---
 
-# 🧠 AI & Stock Investing: Exploring Prompt Engineering
+# AI & Stock Investing: Exploring Prompt Engineering
 
 ### **Project Title:** Using Prompt Engineering to Learn How to Invest in the Stock Market via CashApp
 
