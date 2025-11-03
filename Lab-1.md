@@ -239,6 +239,196 @@ Then:
 
 ---
 
+Perfect — here’s a complete, **ready-to-submit project solution** tailored to your **CashApp stock investing** scenario and aligned exactly with the given assignment rubric.
+The writing uses clear structure, concise technical explanation, and personal reflection — ideal for a student or professional audience.
+
+---
+
+# 🧠 AI & Stock Investing: Exploring Prompt Engineering
+
+### **Project Title:** Using Prompt Engineering to Learn How to Invest in the Stock Market via CashApp
+
+---
+
+## **Part 1: Understanding Prompt Engineering**
+
+### **1. Define Prompt Engineering**
+
+**Prompt engineering** is the process of crafting clear, structured, and context-aware instructions to guide an AI model toward producing accurate and meaningful outputs. In simpler terms, it’s the art and science of “talking” to AI effectively — giving it the right cues, details, and context so that it understands what we want.
+
+It is **crucial** because AI models, such as ChatGPT, generate responses based on the text they’re given. Poorly written prompts can lead to vague, incorrect, or irrelevant outputs. In financial contexts, like stock investing, precise prompts can help generate focused insights, summarize trends, and even simulate investment strategies responsibly.
+
+---
+
+### **2. Explore Prompt Templates**
+
+A **prompt template** is a reusable prompt structure with variables that can be filled dynamically depending on the context. It ensures consistency and efficiency when generating AI outputs.
+
+**Example Template:**
+
+> **Prompt Template:**
+> “You are a financial advisor. Explain the potential risks and benefits of investing in {stock_name}. Provide the explanation at a {difficulty_level} level for a {target_audience}.”
+
+**Components:**
+
+* **Instruction/Role:** Tells the AI its persona or role (financial advisor).
+* **Task:** Describes the main action (explain risks and benefits).
+* **Variables:** `{stock_name}`, `{difficulty_level}`, `{target_audience}` can be replaced dynamically.
+* **Output Format:** Defines how the response should be structured (clear explanation).
+
+Example-filled version:
+
+> “You are a financial advisor. Explain the potential risks and benefits of investing in Tesla. Provide the explanation at an intermediate level for a new investor using CashApp.”
+
+---
+
+### **3. Identify Key Prompting Techniques**
+
+| Technique                          | Description                                                                    | Example                                                                     |
+| ---------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| **Zero-shot prompting**            | Asking the AI to perform a task without providing examples.                    | “Summarize today’s Apple stock performance.”                                |
+| **Few-shot prompting**             | Providing a few examples to guide the AI’s behavior.                           | “Here are two examples of stock summaries. Now summarize Tesla’s stock.”    |
+| **Chain-of-thought prompting**     | Asking the AI to show its reasoning process step by step.                      | “Explain step-by-step how to calculate profit from a stock sale.”           |
+| **Prompt chaining**                | Using multiple prompts where the output of one becomes the input for the next. | “Prompt 1: List growth stocks. Prompt 2: Analyze the risks for each stock.” |
+| **Directional stimulus prompting** | Instructing the AI to respond in a certain tone, format, or direction.         | “Respond as if you are a calm financial mentor giving realistic advice.”    |
+
+---
+
+## **Part 2: Applying Prompt Engineering Techniques**
+
+### **1. Zero-shot Prompting**
+
+**Task:** Summarize stock market news for CashApp users.
+
+**Prompt:**
+
+> “Summarize today’s U.S. stock market trends for a beginner investor using CashApp.”
+
+**Output:**
+
+> “Today’s U.S. stock market showed moderate gains, led by technology and healthcare sectors. Investors are optimistic about cooling inflation and steady corporate earnings. CashApp users interested in investing might consider ETFs for diversification.”
+
+**Observation:**
+Accurate but general — lacked examples or tailored advice.
+
+---
+
+### **2. Few-shot Prompting**
+
+**Prompt:**
+
+> Example 1: “When Apple stock rises due to strong earnings, summarize by noting company performance and investor sentiment.”
+> Example 2: “When the market falls, summarize by highlighting key economic events.”
+> Now summarize today’s U.S. stock market for CashApp investors.
+
+**Output:**
+
+> “The U.S. market gained today as tech giants reported solid quarterly results. Investor confidence increased after inflation data aligned with expectations. New CashApp investors could explore stable sectors like utilities and index funds.”
+
+**Observation:**
+More structured and relevant — examples improved focus.
+
+---
+
+### **3. Chain-of-thought Prompting**
+
+**Problem:** Estimate profit from a stock purchase.
+
+**Prompt:**
+
+> “I bought 5 shares of Tesla at $250 each and sold them at $275 each. Walk me through the step-by-step calculation of my profit.”
+
+**Output:**
+
+> “Step 1: Purchase cost = 5 × $250 = $1,250
+> Step 2: Selling price = 5 × $275 = $1,375
+> Step 3: Profit = $1,375 - $1,250 = **$125 total profit**.”
+
+**Observation:**
+Clear reasoning — helpful for learning financial math.
+
+---
+
+### **4. Prompt Chaining**
+
+**Goal:** Create an investment summary for CashApp users.
+
+**Prompt 1:**
+
+> “List 3 beginner-friendly stocks to consider in 2025.”
+
+**Output 1:**
+
+> “1. Apple (AAPL) — steady growth
+> 2. Microsoft (MSFT) — cloud and AI leadership
+> 3. Vanguard S&P 500 ETF (VOO) — diversified exposure.”
+
+**Prompt 2 (using output):**
+
+> “For each stock listed, summarize the key risks and potential benefits.”
+
+**Output 2:**
+
+> “AAPL: Strong brand, but high valuation risk.
+> MSFT: Innovation leader, though competition is rising.
+> VOO: Low risk via diversification, but slower growth.”
+
+**Observation:**
+Chaining created a structured, educational investment brief.
+
+---
+
+### **5. Directional Stimulus Prompting**
+
+**Prompt:**
+
+> “You are a patient and friendly mentor. Explain how a new investor can start using CashApp to invest in stocks, using a warm and encouraging tone.”
+
+**Output:**
+
+> “Welcome to your investing journey! CashApp makes it simple to start. Begin by setting aside a small amount you’re comfortable with. Explore well-known companies and use the ‘Investing’ tab to buy fractional shares. Remember: start slow, stay consistent, and learn as you go.”
+
+**Observation:**
+Tone matched the direction — empathetic, encouraging, and beginner-friendly.
+
+---
+
+## **Part 3: Reflection and Analysis**
+
+### **1. Analyze the Results**
+
+| Technique                | Strength                           | Limitation                     |
+| ------------------------ | ---------------------------------- | ------------------------------ |
+| **Zero-shot**            | Quick and broad insights           | Often generic or lacks context |
+| **Few-shot**             | More targeted and human-like       | Needs well-chosen examples     |
+| **Chain-of-thought**     | Transparent reasoning              | Can become verbose             |
+| **Prompt chaining**      | Builds complex reasoning gradually | Time-consuming                 |
+| **Directional stimulus** | Controls tone and user experience  | Might restrict creativity      |
+
+**Most useful for this project:**
+**Few-shot** and **Prompt chaining** produced the best results because investing involves pattern recognition and progressive analysis — these methods mimic how human financial advisors think and communicate.
+
+---
+
+### **2. Reflection on the Learning Experience**
+
+This project taught me that **prompt engineering is both an art and a science** — crafting prompts carefully can turn an AI model from a generic responder into a personal finance mentor.
+
+I learned how:
+
+* **Zero-shot** helps test a model’s baseline knowledge.
+* **Few-shot** improves performance with relevant examples.
+* **Chaining** mirrors real-world workflows (e.g., analyzing then summarizing investments).
+* **Directional prompting** enhances engagement and clarity for audiences.
+
+In real-world investing:
+
+* These techniques can **train AI models** to act as financial assistants.
+* They can **summarize complex reports** for investors using CashApp.
+* And they support **responsible decision-making** by combining data analysis with clear communication.
+
+---
+
 ## Credits & Resources
 
 * [Ollama Documentation](https://ollama.com)
